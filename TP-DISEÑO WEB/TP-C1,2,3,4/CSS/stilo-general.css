@@ -3,25 +3,7 @@
     padding: 0;
 }
 
-#consultas{
-    background-color:  green;
-    align-content: center;
-    
-    grid-area: a4;
 
-}
-#contenido{
-    background-color:  rgb(205, 59, 59);
-    align-content: center;
-    grid-area: a1;
-}
-#contenido-image{
-    align-content: center;
-    grid-area: a2;
-    max-width: 100%;
-    height: 100%;
-
-}
 textarea
 {
     width: 100%;
@@ -33,7 +15,7 @@ img{
 }
 header{
     background-color: black;
-    width: 1425px;
+    width: 100%;
 }
 h1{
     color: gray;
@@ -42,33 +24,137 @@ h1{
     font-size: 40px;
 }
 nav{
+     text-decoration:  none;
     background-color: crimson;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 1425px;
-    text-decoration:  none;
     position: sticky;
     top: 0px;
     z-index: 1;
 }
-#div_menu{
-    font-size: 50PX;
-    background-color: cornsilk;
+
+main{
+    background-color: rgb(77, 156, 217);
+    object-position: left;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     text-align: center;
-    margin: 70px;
-    margin-top: 0px;
-    width: 1265;
-
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    overflow: hidden;
+}
+a{
+    font-size: 30px;
+    color: cornflowerblue;
+    text-decoration: none;
+    text-align: center;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    color: gray;
+    background-color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    width: 100%;
+    overflow: hidden;
+}
+li{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin-right : 60px;
+    overflow: hidden;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+@media screen and (max-width:600px){
+a{
+    font-size: 15px;
 }
 
-#gilla{
-    display: grid;
-    grid-template-rows: 60px 100px 860px 60px ;
-    grid-template-columns: 100%;
-    margin: 0px;
+header{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+    li{
+        text-decoration: none;
+        text-align: center;
+        display:block;
+        margin-right : 30%;
+        overflow: hidden;
+    }
+
+    ul{
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        overflow: hidden;
+    }
+
+
+       nav{
+        display: block;
+        text-decoration:  none;
+       background-color: rgb(0, 255, 187);
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       width: 100%;
+       height: 100%;
+       position: relative;
+       top: 0px;
    }
+    #contenido-image{
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    
+    }
+    #consultas{
+        margin-top: 0%;
+        background-color:  green;
+        align-content: center;
+        font-size: 20%;
+        width: 100%;
+        height: 100%;
+    
+}
+#contenido{
+    background-color:  rgb(205, 59, 59);
+    align-content: center;
+    grid-area: a1;
+   
+}
+div{
+    width: 100%;
+    height: 100%;
+    display:list-item;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 50%;
+    width: 70%;
+    height: 70%;
+}
 #grilla-menu{
+    width: 100%;
+    height: 100%;
     display: grid;
     grid-template-rows: 215px 215px 215px 215px;
     grid-template-columns: 25% 25% 25% 25%;
@@ -79,114 +165,8 @@ nav{
     background-color: rgb(77, 156, 217);
    justify-content: center;
 }
-#main-secundarios{
-    background-color: rgb(77, 156, 217);
-    object-position: left;
-    text-decoration: none;
-    height: 850px;
-    width: 1425px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-
-main{
-    background-color: rgb(77, 156, 217);
-    object-position: left;
-    text-decoration: none;
-    height: 860px;
-    width: 1425px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
-    text-align: center;
+footer{
     width: 100%;
     height: 100%;
-    font-size: 20px;
-}
-a{
-    font-size: 30px;
-    color: cornflowerblue;
-    text-decoration: none;
-    text-align: center;
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-footer{
-    color: gray;
-    background-color: black;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
-    width: 1425px;
-    
-}
-li{
-    text-decoration: none;
-    text-align: center;
-    display: inline-block;
-    margin-right : 60px;
-}
-ul{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-@media screen and (max-width:600px){
-
-    #gilla{
-        display: grid;
-        grid-template-rows: 60px 100px 860px 60px ;
-        grid-template-columns: 100%;
-        margin: 0px;
-       }
-       #grilla-menu{
-        display: grid;
-        grid-template-rows: 100px 115px 50px 50px;
-        grid-template-columns: 25% 25% 25% 25%  ;
-        grid-template-areas: "a1 a1 "
-                            "a2 a2 "
-                            "a3 a3"
-                            "a4 a4 ";
-        background-color: rgb(77, 156, 217);
-       grid-row-start: auto;
-       
-    }
-    #contenido-image{
-        align-items: center;
-        grid-area: a2;
-        width: 40%;
-        height: 40%;
-    
-    }
-    #consultas{
-        background-color:  green;
-        align-content: center;
-        font-size: 20%;
-        grid-area: a4;
-        width: 90%;
-        height: 90%;
-    
-}
-#contenido{
-    background-color:  rgb(205, 59, 59);
-    align-content: center;
-    grid-area: a1;
-   
-}
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
-    text-align: center;
-    font-size: 80%;
-    width: 70%;
-    height: 70%;
 }
 }
