@@ -12,7 +12,6 @@
 #consultas{
     background-color:  green;
     align-content: center;
-    
     grid-area: a4;
 }
 #contenido{
@@ -51,8 +50,8 @@
 /*grids */
 #grilla-menu{
     display: grid;
-    grid-template-rows: 215px 215px 215px 215px;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-areas: "a1 a1 a2 a2"
                         "a1 a1 a2 a2"
                         "a3 a3 a3 a3"
